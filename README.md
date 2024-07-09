@@ -1,2 +1,2 @@
-# STUDY GIT
+# STARC00KIE.github.io
 
