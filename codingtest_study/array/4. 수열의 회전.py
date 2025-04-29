@@ -1,8 +1,8 @@
 from collections import deque
+# deque의 rotet 함수 사용?
+
 def solution(nums, k):
-    answer = []
-    
-    
+    answer = nums[k:] + nums[0:k]
     return answer
 
 print(solution([3, 7, 1, 5, 9, 2, 8], 3))
