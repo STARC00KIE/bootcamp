@@ -2,4 +2,4 @@ kim 80 90
 lee 78 50
 ko 50 100
 jung 60 75
-park 100 00
+park 100 90
