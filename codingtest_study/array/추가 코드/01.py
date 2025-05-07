@@ -1,4 +1,5 @@
 def solution(arr):
+  arr = sorted(arr)
   return arr
   
 

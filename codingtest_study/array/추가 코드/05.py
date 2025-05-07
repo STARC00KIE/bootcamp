@@ -1,3 +1,5 @@
+# 행렬곱 모르겠음
+
 def solution(arr1, arr2):
   return ret
 

@@ -3,7 +3,7 @@ from collections import deque
 
 def solution(nums, k):
     answer = nums[k:] + nums[0:k]
-    return answer
+    return answer  
 
 print(solution([3, 7, 1, 5, 9, 2, 8], 3))
 print(solution([2, 12, 2, 1, 3, 3, 9], 2))
