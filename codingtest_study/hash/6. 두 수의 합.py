@@ -1,18 +1,16 @@
 from collections import defaultdict
 def solution(nums, target):
     answer = [0]*2
-
+    
     for idx, i in enumerate(nums[:-2]):
         for j in nums[idx+1:]:
             if (i+j) == target:
                 answer = sorted([i, j])
                 return answer
-   
+            
         
     return answer
     
-                            
-                
 print(solution([3, 7, 2, 12, 9, 15, 8], 12))
 print(solution([21, 12, 30, 15, 6, 2, 9, 19, 14], 24))
 print(solution([12, 18, 5, 8, 21, 27, 22, 25, 16, 2], 28))
