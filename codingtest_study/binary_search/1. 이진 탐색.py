@@ -20,6 +20,12 @@ target값이 nums에 존재하지 않을 경우 -1를 반환합니다.
 # 1. target과 일치하는 첫 번째 값을 찾으면 해당 인덱스 반환
 # 2. 일치하는 값이 없으면 기본값 -1 반환
 
+# 이진 탐색 문제 풀이 공식
+# 최솟값, 최댓값 정하기(LEFT, RIGHT)
+# 중간값(mid)을 계산결과에 따라 늘리고 줄이면서 최적의 값 탐색하기
+# LEFT = mid -1 , RIGHT = mid + 1 -> 이런 식으로
+# 1/2씩 줄여 나가므로 log함수이고, 한번 리스트 순회를 진행하므로 시간복잡도는 nlogn
+
 def solution(nums, target): return next((idx for idx, i in enumerate(nums) if i == target), -1)
 
 def solution(nums, target):
