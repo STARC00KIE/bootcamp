@@ -1,5 +1,6 @@
 # 폴더 업로드 안하기
 project/HAI/data/
+project/HAI/result/
 
 # 모델 및 결과물은 Git에서 제외
 *.pth
