@@ -1,4 +1,4 @@
-def count_black_areas_with_size(board):
+def solution(board):
     n = len(board)  # 보드의 크기 (5x5이면 n=5)
 
     # 방문 여부를 저장할 2차원 리스트 초기화
