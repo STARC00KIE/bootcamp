@@ -8,7 +8,6 @@ distance = [inf] * (D+1) # 다익스트라의 시작 0 ~150
 for i in range(D): # 만약 D가 150이면
     # 그래프 리스트 구조: 그래프[시작점] = [(목적지, 가중치)]
     graph[i].append((i+1, 1)) # 1부터 150까지 graph[i]에 append
-    # => 이부분 궁금한전: 왜 가중치는 무조건 1로 초기화하는거임임
 
 for _ in range(N):
     # 줄 읽어와서 split, int
