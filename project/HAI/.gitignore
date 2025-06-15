@@ -1,0 +1,32 @@
+# Jupyter 노트북 캐시
+.ipynb_checkpoints/
+
+# Python 빌드
+__pycache__/
+*.py[cod]
+*.so
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# 대형 데이터, 모델 파일
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# 이미지나 결과 디렉토리
+outputs/
+runs/
+logs/
+checkpoints/
+weights/
+
+# 환경 설정
+.env
+venv/
+.venv/
