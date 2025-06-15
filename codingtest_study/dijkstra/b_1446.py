@@ -1,4 +1,5 @@
 import sys
+import heapq    
 
 N, D = map(int, sys.stdin.readline().split()) # 지름길의 개수, 고속도로의 길이
 inf = float('inf')
