@@ -3,7 +3,7 @@ s = input()
 # 각 문자의 사용 여부를 나타내는 리스트
 used = [False] * len(s)
 
-def solve(s, used, result):
+def solution(s, used, result):
     # 모든 문자를 다 사용했으면 종료
     if all(used):
         return
@@ -33,7 +33,7 @@ def solve(s, used, result):
     print(min_str)
 
     # 다음 문자를 선택하기 위해 재귀 호출
-    solve(s, used, min_str)
+    solution(s, used, min_str)
 
 # 재귀 함수 호출 시작 (초기 result는 빈 문자열)
-solve(s, used, "")
+solution(s, used, "")
